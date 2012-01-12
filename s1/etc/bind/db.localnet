@@ -1,0 +1,12 @@
+$TTL    60000
+@               IN      SOA     ns.labnet.        root.ns.labnet. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS      ns.labnet.
+server          IN      A       192.10.8.2
+routerout         IN      A       192.10.8.1
+routerin       IN      A       192.10.8.129

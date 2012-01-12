@@ -1,0 +1,3 @@
+ifconfig eth0 192.10.8.2 netmask 255.255.255.128 broadcast 192.10.8.127 up
+route add default gw 192.10.8.1
+/etc/init.d/bind start
